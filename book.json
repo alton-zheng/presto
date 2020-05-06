@@ -1,0 +1,42 @@
+{
+  "title": "Spark 官方翻译",
+  "author": "Alton",
+  "description": "Spark 学习工程，仅供学习使用",
+  "language": "zh-hans",
+  "gitbook": "3.2.3",
+  "styles": {
+    "website": "styles/website.css",
+    "ebook": "styles/ebook.css",
+    "pdf": "styles/pdf.css",
+    "mobi": "styles/mobi.css",
+    "epub": "styles/epub.css"
+  },
+  "plugins": [
+    "splitter",
+    "edit-link",
+    "search-pro",
+    "emphasize",
+    "toggle-chapters",
+    "katex",
+    "mermaid-gb3",
+    "advanced-emoji",
+    "include-codeblock"
+  ],
+  "pluginsConfig": {
+    "edit-link": {
+      "base": "",
+      "label": "Edit This Page"
+    }
+  },
+  "pdf": {
+    "pageNumbers": true,
+    "fontSize": 10,
+    "paperSize": "a4",
+    "margin": {
+      "right": 10,
+      "left": 10,
+      "top": 10,
+      "bottom": 10
+    }
+  }
+}
